@@ -19,9 +19,8 @@ var Main = (props) => {
   return (
     <div>
       <Nav/>
-      <div>
-        <div>
-          <p>Main.jsx rendered</p>
+      <div className="row text-center">
+        <div className="medium-6 large-6 columns">
           {props.children}
         </div>
       </div>
